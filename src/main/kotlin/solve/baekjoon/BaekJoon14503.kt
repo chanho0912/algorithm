@@ -57,7 +57,7 @@ fun main() {
         }
 
         // 90도 회전
-        dir = dir + 3
+        dir += 3
         if (dir > 3) dir = dir % 4
 
         // 범위 밖이면 break
